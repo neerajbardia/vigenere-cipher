@@ -1,6 +1,6 @@
 #vigenere cipher
 
-def key_func(plain, key):                 					#function for key generation
+def key_func(plain, key):                 						#function for key generation
 	key = list(key) 
 	if len(plain) == len(key): 
 		return(key) 
